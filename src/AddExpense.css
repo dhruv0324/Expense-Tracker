@@ -1,0 +1,96 @@
+/* AddExpense.css */
+.add-expense-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .spend-wise-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .spend-wise-title {
+    color: #3498db;
+    font-size: 48px;
+  }
+  
+  .blue-text {
+    color: #3498db;
+  }
+  
+  .yellow-text {
+    color: #f39c12;
+  }
+  
+  .remaining-budget-message {
+    background-color: #3498db;
+    color: #f39c12;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold; /* Added font-weight */
+  }
+  
+  .add-expense-message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold; /* Added font-weight */
+  }
+  
+  
+  .expense-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-button {
+    background-color: #3498db;
+    color: #f39c12;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .back-link {
+    color: #3498db;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #2980b9;
+  }
+  

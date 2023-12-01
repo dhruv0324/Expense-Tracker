@@ -1,0 +1,88 @@
+/* NewEvent.css */
+.new-event-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .new-event-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .new-event-header::before,
+.new-event-header::after {
+  content: "";
+  background-color: #f0f0f0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.new-event-header::before {
+  left: -10vw;
+  width: 10vw;
+}
+
+.new-event-header::after {
+  right: -10vw;
+  width: 10vw;
+}
+  
+  .new-event-title {
+    color: #3498db;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .blue-text {
+    color: #3498db;
+  }
+  
+  .yellow-text {
+    color: #f39c12;
+  }
+  
+  .new-event-form {
+    width: 50%;
+    margin: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3498db;
+  }
+  
+  .input-with-symbol {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rupee-symbol {
+    margin-right: 5px;
+  }
+  
+  .add-event-button {
+    background-color: #3498db;
+    color: #f39c12;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .add-event-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
