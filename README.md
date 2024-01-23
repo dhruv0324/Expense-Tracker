@@ -5,6 +5,13 @@ The primary objective of the Expense Tracker application is to provide users wit
 # Technologies Used:
 In this mini project, I have utilised the MERN (MongoDB, Express, React, Node) stack to develop both, the frontend and backend parts of the project.
 
+<img width="960" alt="Screenshot 2024-01-23 204131" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/6ed998d6-f647-4c4a-954c-ca07ffef4142">
+<img width="949" alt="Screenshot 2024-01-23 204421" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/748fc890-5439-4ac0-8482-c12c5cb0e029">
+<img width="945" alt="Screenshot 2024-01-23 204205" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/b7c7fb53-f42c-4f1d-bfc0-67f6fb76bc48">
+<img width="950" alt="Screenshot 2024-01-23 204224" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/e074cd67-72b8-4cef-93bd-458d32dd470f">
+<img width="947" alt="Screenshot 2024-01-23 204245" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/5c7d68e9-8f1b-4d17-85b9-1011c155390b">
+<img width="947" alt="Screenshot 2024-01-23 204306" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/377f0143-f2b1-46d1-a3fa-be1bef502a1a">
+<img width="946" alt="Screenshot 2024-01-23 204337" src="https://github.com/dhruv0324/Expense-Tracker/assets/141602749/6bbc7bbc-593b-4cd3-aaa3-02302ce2d9ea">
 
 
 # Getting Started with Create React App
