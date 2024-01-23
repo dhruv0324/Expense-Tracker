@@ -1,0 +1,199 @@
+/* OngoingEvent.css */
+.ongoing-event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('https://png.pngtree.com/background/20210715/original/pngtree-blue-green-glow-light-effect-blur-background-picture-image_1323331.jpg') center center fixed; 
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .spend-wise-header {
+    background: none !important;
+  }
+  
+  .spend-wise-title {
+    color: #3498db; /* Blue color */
+    font-size: 70px; /* Bigger font size */
+    text-align: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none !important;
+  }
+  
+  .dashboard-title-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease; /* Add a transition for transform */
+    display: inline-block; /* Ensures the transform origin is centered */
+  }
+  
+  .dashboard-title-link:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+
+  .blue-text {
+    color: #3498db;
+  }
+  
+  .green-text {
+    color: lightgreen;
+  }
+  
+  .event-details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-name {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .remaining-budget {
+    background-color: #f39c12; /* Yellow color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .remaining-budget-text {
+    color: #fff; /* White text */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-expense-button {
+    background-color: #3498db;
+    color: #f39c12;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-expense-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
+  .expense-section {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    background-color: #ecf0f1; /* Light grey background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .expense-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expense-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .expense-cost {
+    color: #e74c3c; /* Red color for cost */
+  }
+  
+  .end-event-button {
+    background-color: #e74c3c; /* Red color for end event button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .end-event-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.1);
+  }
+  
+  .back-to-dashboard-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .back-to-dashboard-link:hover {
+    color: #2980b9;
+  }
+
+  .event-table {
+    width: 80%; /* Increase the width for better readability */
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .event-table th, .event-table td {
+    border: 2px solid #ddd; /* Thicker border for better visibility */
+    padding: 20px; /* Increase padding for better spacing */
+    text-align: center;
+  }
+  
+  .event-table th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px; /* Larger font size for table headings */
+  }
+  
+  .event-table td {
+    font-size: 24px; /* Larger font size for table rows */
+    background-color: #f9f9f9; /* Background color for all rows */
+  }
+  
+  .event-table tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .event-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .event-link:hover {
+    color: #2980b9;
+  }
+
+  .no-events-message {
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some top margin for spacing */
+    color: #3498db; /* Blue color */
+  }
+
+  .ongoing-events-heading {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #3498db; /* Blue color */
+    display: block; /* Ensures it takes full width */
+    width: 100%; /* Makes it full width */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+  }

@@ -1,0 +1,112 @@
+/* NewEvent.css */
+.new-event-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://thumbs.dreamstime.com/b/soft-blue-green-background-colors-old-distressed-vintage-grunge-texture-pretty-website-header-banner-layout-brochure-152846860.jpg') center center fixed;
+    background-size: cover;
+  }
+  
+  .new-event-header {
+    text-align: center;
+  }
+ 
+  .new-event-title {
+    color: #3498db;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-title-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease; /* Add a transition for transform */
+    display: inline-block; /* Ensures the transform origin is centered */
+  }
+  
+  .dashboard-title-link:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .blue-text {
+    color: #3498db;
+  }
+  
+  .yellow-text {
+    color: lightgreen;
+  }
+  
+  .new-event-form {
+    width: 50%;
+    margin: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+  }
+  
+  .input-with-symbol {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rupee-symbol {
+    margin-right: 5px;
+  }
+  
+  .add-event-button {
+    background-color: #3498db !important;
+    color: white !important;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .add-event-button:hover {
+    background-color: #2980b9 !important;
+    transform: scale(1.1);
+  }
+  
+  .new-event-form {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Add responsive styling */
+  @media (max-width: 600px) {
+    .new-event-form {
+      width: 90%;
+    }
+  }
+  
+  /* Add hover effect to labels */
+  label:hover {
+    color: #2ecc71;
+  }

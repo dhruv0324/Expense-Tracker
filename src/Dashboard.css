@@ -1,0 +1,129 @@
+/* Dashboard.css */
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png') center center fixed; 
+    background-size: cover;
+  }
+  
+  .dashboard-header {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .dashboard-title {
+    color: #3498db;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .blue-text {
+    color: #3498db;
+  }
+  
+  .green-text {
+    color: lightgreen !important;
+  }
+  
+  .dashboard-welcome {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .welcome-text {
+    color: #3498db;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: colorTransition 5s infinite;
+  }
+  
+  @keyframes colorTransition {
+    0% {
+      color: #3498db; /* Starting color */
+    }
+    25% {
+      color: lightcyan;
+    }
+    50% {
+      color: lightgreen; /* Midpoint color */
+    }
+    25%{
+      color: lightblue;
+    }
+    100% {
+      color: #3498db; /* Ending color (same as starting color for a continuous loop) */
+    }
+  }
+
+  .opening-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #34495e;  
+  }
+  
+  .continuous-effect {
+    color: #34495e;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .dashboard-buttons {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    width: 100%;
+  }
+  
+  .dashboard-logout-button {
+    background-color: #e74c3c !important; /* Red color for logout button */
+    color: #fff; /* White text */
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin: 40px 0; /* Add margin between buttons */
+  }
+  
+  .dashboard-logout-button:hover {
+    background-color: #c0392b !important; /* Darker red color on hover */
+    transform: scale(1.1);
+  }
+
+  .dashboard-button {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 0 10px; /* Add margin between buttons */
+  }
+  
+  .dashboard-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+  }
+  
+  .dashboard-footer {
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightslategray;
+    color: black ;
+    width: 100%;
+  }
+  
+   
