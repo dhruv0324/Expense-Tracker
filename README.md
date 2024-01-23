@@ -1,3 +1,12 @@
+# Project Overview:
+The Expense Tracker application is a web-based platform designed to assist users in managing and tracking their expenses efficiently. The application focuses on providing a user-friendly interface for creating and managing financial events, tracking expenses related to those events, and maintaining a record of past financial activities. By leveraging modern web technologies, the project aims to streamline the process of budgeting and spending.
+The primary objective of the Expense Tracker application is to provide users with a comprehensive financial management tool. Users can efficiently track and manage their expenses by creating and organizing events with specified budgets. The application ensures secure user authentication, employs React.js for a dynamic and responsive user interface, utilizes Node.js and Express.js for the backend server, and stores data securely in a MongoDB database. The project aims to streamline budgeting processes, empower users in making informed financial decisions, and maintain a systematic record of their financial history.
+
+# Technologies Used:
+In this mini project, I have utilised the MERN (MongoDB, Express, React, Node) stack to develop both, the frontend and backend parts of the project.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
